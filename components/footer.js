@@ -13,6 +13,7 @@ function Footer() {
               alt="footer logo"
               height={44}
               width={177}
+              loading="lazy"
             />
           </a>
 

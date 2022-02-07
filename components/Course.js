@@ -5,7 +5,7 @@ function Course({ imagePath, title, type, description }) {
   description = "keep reading...";
   return (
     <div className="w-[263px]">
-      <Image src={imagePath} alt={title} width={263} height={163} />
+      <Image src={imagePath} alt={title} width={263} height={163} loading="lazy"/>
       <a href="" className="text-lg text-gray-600 hover:text-orange-600 hover:underline">
         {title}
       </a>
